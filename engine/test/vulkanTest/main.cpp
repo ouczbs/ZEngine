@@ -1,12 +1,12 @@
 #include "lve_app.hpp"
 
-// std
+// sys headers
 #include <cstdlib>
 #include <iostream>
 #include <stdexcept>
 
 int main() {
-  lve::LveApp app{};
+  lve::LveApp app;
 
   try {
     app.run();
